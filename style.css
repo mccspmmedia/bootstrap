@@ -1,0 +1,45 @@
+/* Содержимое файла style.css */
+header {
+    background-color: #ffffff;
+    color: rgb(6, 6, 6);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company-name {
+    font-size: 24px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-icons img {
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  .text-block {
+    width: 65%;
+  }
+  
+  .image-block {
+    width: 35%;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-top: 40px;
+    height: auto;
+  }
+  
