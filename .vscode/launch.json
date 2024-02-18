@@ -6,7 +6,12 @@
             "request": "launch",
             "name": "Launch Web Server",
             "program": "${workspaceFolder}/server.js",
-            "port": 3000
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeArgs": [
+                "--inspect"
+            ]
         }
     ]
 }
