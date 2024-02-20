@@ -50,6 +50,7 @@ header {
 }
 
   .image-block {
+    margin-top: 20px; 
     width: 35%;
     background-color: #ffffff;
 
