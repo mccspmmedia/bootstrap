@@ -92,7 +92,7 @@ img {
       margin-top: 0px; /* Добавляем отступ сверху */
   }
   .separator {
-    border-top: 1px solid #ccc; /* Толщина линии и цвет */
+    border-top: 3px solid #d20d0d; /* Толщина линии и цвет */
     margin: 20px 0; /* Отступы от верхнего и нижнего контента */
   }  
 }
