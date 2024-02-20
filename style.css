@@ -33,7 +33,7 @@ header {
   width: 65%;
   background-color: #ffffff;
   text-align: center;
-  margin-top: 20px;
+  margin-top:140px;
   margin-bottom: 20px;
 }
 
@@ -41,7 +41,7 @@ header {
   width: 65%;
   background-color: #ffffff;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 140px;
   margin-bottom: 0px;
 }
 
@@ -89,6 +89,6 @@ img {
   }
 
   .image-block {
-      margin-top: 20px; /* Добавляем отступ сверху */
+      margin-top: 0px; /* Добавляем отступ сверху */
   }
 }
