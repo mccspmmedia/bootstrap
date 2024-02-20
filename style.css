@@ -33,6 +33,7 @@ header {
   width: 65%;
   background-color: #ffffff;
   text-align: center;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -45,7 +46,6 @@ header {
 }
 
 .image-block {
-  margin-top: -40px;
   width: 35%;
   background-color: #ffffff;
 }
