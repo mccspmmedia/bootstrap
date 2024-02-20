@@ -95,4 +95,8 @@ img {
     border-top: 1px solid #000000; /* Толщина линии и цвет */
     margin: 0px 0; /* Отступы от верхнего и нижнего контента */
   }  
+  .main2{
+    background-color: #cfcccc;
+    width: 700px;
+  }
 }
