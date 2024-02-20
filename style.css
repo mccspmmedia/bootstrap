@@ -97,9 +97,9 @@ img {
     margin: 0px 0; /* Отступы от верхнего и нижнего контента */
   }
   .main2{
-    background-color: #cfcccc;
+    background-color: #878787;
     width: 700px;
-    flex-direction: column;
+    display: flex;
     text-align: center;
   }
 
