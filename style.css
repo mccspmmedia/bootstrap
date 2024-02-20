@@ -1,86 +1,94 @@
-/* Содержимое файла style.css */
-
 header {
-    background-color: #e9e0e0;
-    color: rgb(6, 6, 6);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .company-name {
-    font-size: 16px;
-  }
-  
-  .contact-icons {
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-icons img {
-    width: 30px;
-    height: auto;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-
-  .main-content {
-    background-color: #ffffff;
-    display: flex;
-    margin-top: 20px;
-  }
-  
-  .text-block {
-    width: 65%;
-    background-color: #ffffff;
-    text-align: center; /* Выравнивание текста по центру */
-    margin-bottom: 20px; /* Дополнительный отступ снизу для заголовка */
-    h3 {
-        margin-top: 120px; /* Задаем отступ сверху в 100 пикселей */
-      }
-      h1 {
-        margin-top: 80px; /* Задаем отступ сверху в 100 пикселей */
-      }
+  background-color: #e9e0e0;
+  color: rgb(6, 6, 6);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-  
+
+.company-name {
+  font-size: 16px;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icons img {
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.main-content {
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 20px;
+}
+
+.text-block {
+  width: 65%;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .text-block2 {
   width: 65%;
   background-color: #ffffff;
-   text-align: center; /* Выравнивание текста по центру */ 
-  margin-top: 60px; /* отступ в 20 пикселей сверху */
-  margin-bottom: 20px; /* Дополнительный отступ снизу для заголовка */
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
-  .image-block {
-    margin-top: -40px; 
-    width: 35%;
-    background-color: #ffffff;
+.image-block {
+  margin-top: -40px;
+  width: 35%;
+  background-color: #ffffff;
+}
 
-  }
-  
-  img {
-    max-width: 100%;
-    margin-top: 40px;
-    height: auto;
-  }
+img {
+  max-width: 100%;
+  margin-top: 40px;
+  height: auto;
+}
 
-  .button {
-    background-color: black; /* черный фон */
-    color: white; /* белый шрифт */
-    border: none; /* убираем границу */
-    padding: 10px 20px; /* задаем отступы */
-    cursor: pointer; /* меняем курсор при наведении */
-    transition: background-color 0.3s; /* добавляем анимацию перехода */
-    width: 200px; /* задаем ширину кнопки */
-    height: 50px; /* задаем высоту кнопки */
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+  height: 50px;
 }
 
 .button:hover {
-    background-color: #333; /* изменяем цвет фона при наведении */
+  background-color: #333;
 }
 
 .main1 {
-    background-color: #ffffff;
-    padding: 20px; /* Добавлено для лучшего отображения */
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Добавляем медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+  .main-content {
+      flex-direction: column; /* Изменяем направление flex на колонку */
+  }
+
+  .text-block,
+  .text-block2,
+  .image-block {
+      width: 100%; /* Занимаем 100% ширины родительского контейнера */
+  }
+
+  .image-block {
+      margin-top: 20px; /* Добавляем отступ сверху */
+  }
 }
