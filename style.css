@@ -48,12 +48,12 @@ header {
   width: 65%;
   background-color: #ffffff;
    text-align: center; /* Выравнивание текста по центру */ 
-  margin-top: 20px; /* отступ в 20 пикселей сверху */
+  margin-top: 60px; /* отступ в 20 пикселей сверху */
   margin-bottom: 20px; /* Дополнительный отступ снизу для заголовка */
 }
 
   .image-block {
-    margin-top: -20px; 
+    margin-top: 0px; 
     width: 35%;
     background-color: #ffffff;
 
