@@ -98,8 +98,7 @@ img {
   }
   .main2 {
     padding-top: 50px; /* Верхний отступ 10 пикселей */
-    padding-right: 0px; /* Правый отступ 20 пикселей */
-    padding-bottom: 0px; /* Нижний отступ 30 пикселей */
+    padding: 50px;
     padding-left: 0px; /* Левый отступ 40 пикселей */
     background-color: #878787;
     width: 100%;
