@@ -97,9 +97,7 @@ img {
     margin: 0px 0; /* Отступы от верхнего и нижнего контента */
   }
   .main2 {
-    padding-top: 50px; /* Верхний отступ 10 пикселей */
-    padding: 500px;
-    padding-left: 0px; /* Левый отступ 40 пикселей */
+    padding: 100px;
     background-color: #878787;
     width: 100%;
     height: 400px;
