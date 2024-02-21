@@ -97,10 +97,10 @@ img {
     margin: 0px 0; /* Отступы от верхнего и нижнего контента */
   }
   .main2 {
-    padding-top: 10px; /* Верхний отступ 10 пикселей */
-    padding-right: 20px; /* Правый отступ 20 пикселей */
-    padding-bottom: 30px; /* Нижний отступ 30 пикселей */
-    padding-left: 40px; /* Левый отступ 40 пикселей */
+    padding-top: 50px; /* Верхний отступ 10 пикселей */
+    padding-right: 50px; /* Правый отступ 20 пикселей */
+    padding-bottom: 50px; /* Нижний отступ 30 пикселей */
+    padding-left: 50px; /* Левый отступ 40 пикселей */
     background-color: #878787;
     width: 100%;
     height: 400px;
